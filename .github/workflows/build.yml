@@ -2,9 +2,7 @@ name: build
 
 on:
   push:
-    branches: [ "GUI" ]
-  pull_request:
-    branches: [ "GUI" ]
+  workflow_dispatch: 
     
 jobs:
   build:
