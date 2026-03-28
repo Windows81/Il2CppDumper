@@ -73,4 +73,4 @@ jobs:
         tag_name: ${{ env.tag_name }}
         generate_release_notes: true
         overwrite_files: false
-        files: C:\builtfiles\${{matrix.proj-name}}-${{matrix.package-name}}
+        files: C:\builtfiles\${{matrix.proj-name}}-${{matrix.package-name}}*
